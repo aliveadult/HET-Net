@@ -41,6 +41,10 @@ The project is structured as follows:
 
 * **`evaluations.py`**: Contains metrics calculation (AUC, AUPR, F1, Accuracy, Precision, Recall).
 
+## 🌐 Data Access
+You can access the processed dataset files (including CSV labels, PDB structures, and ESM embeddings) via the following link:
+> **Google Drive Path**: [https://drive.google.com/drive/folders/1U_bl2IDNV-FqyBD4tMJKbDQzEBiLYbin?hl=zh_CN](https://drive.google.com/drive/u/1/folders/1eXgtHrG6Uveyqj2zB0mrLg8OQlkDVSXj)
+
 ## 📁 Dataset & Preparation
 
 ### 1. Data Structure
