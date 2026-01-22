@@ -129,17 +129,14 @@ If you use this code or framework in your research, please cite the following pa
 
 ```bibtex
 @article{
-  title={Integrating Geometric Equivariance, Topological Data Analysis, and Multi-Scale Sequence Embeddings for Drug-Target Interaction Prediction},
-  author={Hang, Huaibin and Pang, Shunpeng and An, Wensheng and Feng, Junxiao and Pang, Weina and Jiang, Mingjian and Zhou, Wei and Zhang, Yuanyuan},
-  journal={Journal of Chemical Theory and Computation},
-  year={2025},
-  note={Under Review / In Press}
+ 
 }
 
 ```
+✉ Citation
+If you use HET-Net or this code in your research, please cite the following paper:
 
-**Citation and  Contact:**
+📧 Contact
+Mingjian Jiang: jiangmingjian@qut.edu.cn
 
-@article{
-
-}
+Huaibin Hang: School of Information and Control Engineering, Qingdao University of Technology
