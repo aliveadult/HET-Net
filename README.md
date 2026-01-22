@@ -134,10 +134,4 @@ If you use this code or framework in your research, please cite the following pa
 }
 
 ```
-✉ Citation
-If you use HET-Net or this code in your research, please cite the following paper:
 
-📧 Contact
-Mingjian Jiang: jiangmingjian@qut.edu.cn
-
-Huaibin Hang: School of Information and Control Engineering, Qingdao University of Technology
