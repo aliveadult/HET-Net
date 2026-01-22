@@ -47,7 +47,7 @@ The project is structured as follows:
 
 To run the code, you need to configure `configss.py` to point to your data. The system expects:
 
-* **CSV Dataset:** A file containing columns: `Drug` (SMILES), `Target Sequence`, `Target_ID`, and `Label` (Binary 0/1).
+* **CSV Dataset:** A file containing columns: Drug SMILES,Target Sequence, Target_ID, and Label(Binary 0/1).
 * **Protein PDB Files:** A directory containing `.pdb` files named by their `Target_ID`.
 * **ESM Embeddings:** A `.pkl` file containing pre-computed ESM-2 embeddings for the target sequences.
 
