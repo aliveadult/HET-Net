@@ -5,18 +5,18 @@
 
 ## 💡 HET-Net Framework
 
-**HET-Net** (Heterogeneous Equivariant and Topological Network) is a cutting-edge deep learning framework for Drug-Target Interaction (DTI) prediction. Unlike traditional models that rely on simple sequence or 2D graph representations, HET-Net bridges the gap between microscopic atomic geometry and macroscopic molecular topology[cite: 710, 712].
+**HET-Net** (Heterogeneous Equivariant and Topological Network) is a cutting-edge deep learning framework for Drug-Target Interaction (DTI) prediction. Unlike traditional models that rely on simple sequence or 2D graph representations, HET-Net bridges the gap between microscopic atomic geometry and macroscopic molecular topology.
 
 
 
 ### Core Innovations
-The framework integrates **five heterogeneous feature modalities** [cite: 14, 55, 302] to capture chemically plausible interactions:
+The framework integrates **five heterogeneous feature modalities** to capture chemically plausible interactions:
 
 1.  **Drug Sequence ($F_{d-seq}$):** Extracts local chemical substructures using ECFP fingerprints (radius 2, 1024-bit) processed via a Multi-Layer Perceptron (MLP).
-2.  **Drug Structure ($F_{d-struct}$):** A **3D-Aware Graph Attention Network (GAT)** that explicitly incorporates Euclidean distances between atoms to capture fine-grained local geometry[cite: 182, 188].
-3.  **Drug Topology ($F_{d-Topo}$):** Utilizes **Topological Data Analysis (TDA)** via Persistent Homology. It computes persistence diagrams for dimensions $H_0$ (connectivity), $H_1$ (loops/rings), and $H_2$ (voids/cavities) to characterize global molecular shape and stability[cite: 118, 203].
-4.  **Protein Sequence ($F_{p-seq}$):** Leverages the **ESM-2** evolutionary scale language model to generate rich, context-aware sequence embeddings[cite: 119, 217].
-5.  **Protein Structure ($F_{p-struct}$):** Implements a **Geometric Vector Perceptron (GVP)** encoder. This ensures $E(3)$ equivariance (invariance to translation and rotation), allowing the model to rigorously learn the 3D binding pocket geometry[cite: 52, 228].
+2.  **Drug Structure ($F_{d-struct}$):** A **3D-Aware Graph Attention Network (GAT)** that explicitly incorporates Euclidean distances between atoms to capture fine-grained local geometry.
+3.  **Drug Topology ($F_{d-Topo}$):** Utilizes **Topological Data Analysis (TDA)** via Persistent Homology. It computes persistence diagrams for dimensions $H_0$ (connectivity), $H_1$ (loops/rings), and $H_2$ (voids/cavities) to characterize global molecular shape and stability.
+4.  **Protein Sequence ($F_{p-seq}$):** Leverages the **ESM-2** evolutionary scale language model to generate rich, context-aware sequence embeddings.
+5.  **Protein Structure ($F_{p-struct}$):** Implements a **Geometric Vector Perceptron (GVP)** encoder. This ensures $E(3)$ equivariance (invariance to translation and rotation), allowing the model to rigorously learn the 3D binding pocket geometry.
 
 ---
 
@@ -77,7 +77,7 @@ To run the model, organize your data as follows:
 ## ✨ System Requirements & Installation
 
 **Hardware:**
-* **GPU:** CUDA-enabled NVIDIA GPU (Tested on dual RTX 4090 24G)[cite: 465].
+* **GPU:** CUDA-enabled NVIDIA GPU (Tested on dual RTX 4090 24G).
 * **OS:** Linux (Recommended).
 
 **Dependencies:**
