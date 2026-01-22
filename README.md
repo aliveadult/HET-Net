@@ -1,7 +1,3 @@
-Based on the code files and the research paper (HET-Net) you uploaded, here is the updated `README.md`. I have replaced the old MAFI-DTA content with the specific architecture, file structure, and requirements of your **HET-Net** (HGDDTI) project.
-
----
-
 # HET-Net: Integrating Geometric Equivariance, Topological Data Analysis, and Multi-Scale Sequence Embeddings for Drug-Target Interaction Prediction
 
 ## 💡 HET-Net Framework
