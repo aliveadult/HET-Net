@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-red.svg)](https://pytorch.org/)
 
+![屏幕截图_19-3-2026_212015_latex cstcloud cn](https://github.com/user-attachments/assets/afe0029f-cb95-4404-96db-312c29f737d5)
+
 ## 💡 HET-Net Framework
 
 **HET-Net** (Heterogeneous Equivariant and Topological Network) is a cutting-edge deep learning framework for Drug-Target Interaction (DTI) prediction. Unlike traditional models that rely on simple sequence or 2D graph representations, HET-Net bridges the gap between microscopic atomic geometry and macroscopic molecular topology.
